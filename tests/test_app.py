@@ -23,6 +23,7 @@ def test_get_activities_returns_seeded_activities(client):
     # Arrange
     expected_activity_names = {"Chess Club", "Programming Class", "Gym Class", "Basketball Team", "Tennis Club", "Art Studio", "Music Band", "Debate Team", "Science Club"}
 
+
     # Act
     response = client.get("/activities")
 
